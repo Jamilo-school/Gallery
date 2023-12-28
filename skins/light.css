@@ -5,7 +5,8 @@
 .lcl_light.lcl_txt_rside:not(.lcl_force_txt_over) #lcl_txt,
 .lcl_light.lcl_txt_lside:not(.lcl_force_txt_over) #lcl_txt,
 .lcl_light .lcl_tooltip {
-	background-color: #fcfcfc;	
+	backdrop-filter: blur(5px);
+	
 }
 .lcl_light #lcl_subj {
 	background-color: #4e4e4e;	
